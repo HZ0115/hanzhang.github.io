@@ -1,0 +1,37 @@
+#hero {
+  min-height: 0 !important;
+  padding-bottom: 1rem !important;
+}
+
+#about {
+  padding-top: 1rem !important;
+}
+
+#hero .image img {
+  width: 180px !important;
+  height: 180px !important;
+  object-fit: cover;
+  border-radius: 50% !important;
+}
+
+@media (min-width: 992px) {
+  #hero .container > .row > .col-lg-4 {
+    order: 1;
+  }
+
+  #hero .container > .row > .content {
+    order: 2;
+  }
+}
+
+.back-to-top {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
